@@ -105,6 +105,9 @@ footer a:hover {
 main {
     margin: 0;
 }
+#bio-photo {
+        max-width: 50%;
+    }
 
 @media (max-width: 1030px) {
     main {
@@ -153,6 +156,9 @@ main {
     .header {
         padding: 1rem 2rem;
     }
+    #bio-photo {
+        max-width: 100%;
+    }
 }
 
 .about-section,
@@ -173,6 +179,13 @@ main {
 
 
 /* subpage styling */
+#bio {
+    display:inline-block;
+}
+/* #bio-photo {
+    max-width: 50%;
+} */
+
 
 .project-content {
     text-align: justify;
